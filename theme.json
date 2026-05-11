@@ -1,0 +1,18 @@
+{
+  "id": "Arcane",
+  "homepage": "https://github.com/Comp-Tech-Guy/Arcane",
+  "author": "CompTechGuy",
+  "name": "Arcane",
+  "description": "A Zen Browser theme to look like Arc - created by the devs of Arc-2.0 v3!",
+  "version": "1.0.0",
+  "style": {
+    "chrome": "userChrome.css",
+    "content": "userContent.css"
+  },
+  "preferences": "preferences.json",
+  "readme": "https://raw.githubusercontent.com/Comp-Tech-Guy/Arcane/refs/heads/main/README.md",
+  "image": "https://raw.githubusercontent.com/Comp-Tech-Guy/Arcane/refs/heads/main/images/Main_Look.png",
+  "ai": "partial",
+  "tags": ["content", "chrome", "sleek"],
+  "fork": ["zen"]
+}
