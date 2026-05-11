@@ -1,0 +1,15 @@
+{
+  "Arcane": {
+    "id": "Arcane",
+    "name": "Arcane",
+    "description": "Imported via browsercfg (https://github.com/CosmoCreeper/browsercfg)",
+    "createdAt": "2000-01-01",
+    "updatedAt": "2000-01-01",
+    "homepage": "https://github.com/Comp-Tech-Guy/Arcane",
+    "version": "1.0.0",
+    "style": { "chrome": "userChrome.css", "content": "userContent.css" },
+    "preferences": "preferences.json",
+    "no-updates": true,
+    "enabled": true
+  }
+}
