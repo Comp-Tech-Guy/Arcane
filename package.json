@@ -2,8 +2,8 @@
   "name": "arc-theme",
   "private": true,
   "scripts": {
-    "lint": "bun lint:pretty && stylelint '**/*.css'",
-    "lint:fix": "bun pretty && stylelint --fix '**/*.css'",
+    "lint": "bun lint:pretty && stylelint .",
+    "lint:fix": "bun pretty && stylelint --fix .",
     "lint:pretty": "prettier --check .",
     "pretty": "prettier --write .",
     "prepare": "husky"
