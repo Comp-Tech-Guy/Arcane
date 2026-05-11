@@ -1,4 +1,2 @@
-package.json
 bun.lock
-.prettierrc.json
-.browsercfg.json
+.browsercfg/
