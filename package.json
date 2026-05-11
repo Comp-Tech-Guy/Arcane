@@ -2,8 +2,8 @@
   "name": "arc-theme",
   "private": true,
   "scripts": {
-    "lint": "bun lint:pretty && stylelint \"**/*.{ts,tsx,js,jsx,json,css}\"",
-    "lint:fix": "bun pretty && stylelint --fix \"**/*.{ts,tsx,js,jsx,json,css}\"",
+    "lint": "bun lint:pretty && stylelint \"**/*.css\"",
+    "lint:fix": "bun pretty && stylelint --fix \"**/*.css\"",
     "lint:pretty": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css}\"",
     "pretty": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css}\"",
     "prepare": "husky"
