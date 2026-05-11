@@ -1,3 +1,4 @@
 bun.lock
-.browsercfg/
 images/
+.browsercfg/
+.github/workflows/
