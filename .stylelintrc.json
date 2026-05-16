@@ -1,17 +1,3 @@
 {
-  "extends": ["stylelint-config-standard"],
-  "rules": {
-      "function-no-unknown": [
-        true,
-        {
-          "ignoreFunctions": ["-moz-pref"]
-        }
-      ],
-      "media-feature-name-no-unknown": [
-        true,
-        {
-          "ignoreMediaFeatureNames": ["-moz-pref"]
-        }
-      ]
-    }
+  "extends": ["stylelint-config-standard"]
 }
