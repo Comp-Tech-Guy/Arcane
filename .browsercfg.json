@@ -13,12 +13,14 @@
     ]
   },
   "import": {
-    "{remote}/bootloader/program": "{browser}/",
-    "{remote}/bootloader/profile/utils": "{profile}/chrome/utils",
-    "{remote}/sine/src": "{profile}/chrome/JS",
-    "{remote}/sine/locales": "{profile}/chrome/JS/locales",
-    "template": "{profile}/chrome/sine-mods",
-    "./": "{profile}/chrome/sine-mods/Arcane"
+    "files":{
+      "{remote}/bootloader/program": "{browser}/",
+      "{remote}/bootloader/profile/utils": "{profile}/chrome/utils",
+      "{remote}/sine/src": "{profile}/chrome/JS",
+      "{remote}/sine/locales": "{profile}/chrome/JS/locales",
+      "template": "{profile}/chrome/sine-mods",
+      "./": "{profile}/chrome/sine-mods/Arcane"
+    }
   },
   "ignore": ["node_modules"]
 }

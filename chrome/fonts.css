@@ -1,0 +1,79 @@
+/* Default Arc font */
+@font-face {
+  font-family: SF-Symbols;
+  src: url("chrome://sine/content/Arcane/fonts/sf-symbols.ttf");
+}
+
+/* Our symbols font */
+@font-face {
+  font-family: SF-Pro;
+  src: url("chrome://sine/content/Arcane/fonts/sf-pro.ttf");
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url("chrome://sine/content/Arcane/fonts/nunito.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Nunito-Italic;
+  src: url("chrome://sine/content/Arcane/fonts/nunito-italic.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Suse;
+  src: url("chrome://sine/content/Arcane/fonts/suse.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Suse-Italic;
+  src: url("chrome://sine/content/Arcane/fonts/suse-italic.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media (-moz-pref("arcane-font", "Nunito")) {
+  :root {
+    --arcane-font: "Nunito";
+  }
+}
+
+@media (-moz-pref("arcane-font", "Nunito-Italic")) {
+  :root {
+    --arcane-font: "Nunito-Italic";
+  }
+}
+
+@media (-moz-pref("arcane-font", "SF-Symbols")) {
+  :root {
+    --arcane-font: "SF-Symbols";
+  }
+}
+
+@media (-moz-pref("arcane-font", "SF-Pro")) {
+  :root {
+    --arcane-font: "SF-Pro";
+  }
+}
+
+@media (-moz-pref("arcane-font", "SUSE")) {
+  :root {
+    --arcane-font: "Suse";
+  }
+}
+
+@media (-moz-pref("arcane-font", "SUSE-Italic")) {
+  :root {
+    --arcane-font: "Suse-Italic";
+  }
+}
+
+* {
+  font-family: var(--arcane-font), sans-serif;
+}

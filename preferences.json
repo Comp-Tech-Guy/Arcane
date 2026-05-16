@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "type": "dropdown",
+    "property": "arcane-font",
+    "label": "Select the *font* for browser",
+    "restart": false,
+    "defaultValue": "Nunito",
+    "options": [
+      { "label": "Nunito (default)", "value": "Nunito" },
+      { "label": "Nunito Italic", "value": "Nunito-Italic" },
+      { "label": "SF Pro", "value": "SF-Pro" },
+      { "label": "SF Symbols", "value": "SF-Symbols" },
+      { "label": "SUSE", "value": "SUSE" },
+      { "label": "SUSE Italic", "value": "SUSE-Italic" }
+    ]
+  }
+]
