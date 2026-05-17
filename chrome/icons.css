@@ -1,0 +1,6 @@
+/* Menu Icon */
+@media (-moz-pref("arcane-menu-icon")) {
+  #PanelUI-menu-button .toolbarbutton-badge-stack .toolbarbutton-icon {
+    list-style-image: url("chrome://sine/content/Arcane/svg/arc.svg") !important;
+  }
+}
