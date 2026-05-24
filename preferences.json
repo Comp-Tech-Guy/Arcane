@@ -6,6 +6,10 @@
     "defaultValue": true
   },
   {
+    "type":"separator",
+    "label":"**Fonts**"
+  },
+  {
     "type": "dropdown",
     "property": "arcane-font",
     "label": "Select the *font* for browser",
@@ -19,5 +23,11 @@
       { "label": "SUSE", "value": "SUSE" },
       { "label": "SUSE Italic", "value": "SUSE-Italic" }
     ]
+  },
+  {
+    "type": "checkbox",
+    "property": "arcane-workspace-indicator",
+    "label": "Remove Workspace Indicator",
+    "defaultValue": false
   }
 ]

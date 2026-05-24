@@ -1,0 +1,7 @@
+/* Browser Tint */
+#zen-main-app-wrapper {
+  background: var(
+    --arc-ui-tint,
+    light-dark(rgb(255 255 255 / 25%), rgb(0 0 0 / 25%))
+  ) !important;
+}
