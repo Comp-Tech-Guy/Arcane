@@ -17,6 +17,6 @@
 #urlbar-container,
 .urlbar-background,
 .tab-group-container,
-.zen-current-workspace-indicator::before{
+.zen-current-workspace-indicator::before {
   border-radius: 12px !important;
 }
