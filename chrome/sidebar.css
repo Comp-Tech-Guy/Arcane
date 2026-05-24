@@ -1,16 +1,21 @@
 /* Compact Mode Sidebar Border Radius */
-#zen-toolbar-background , #zen-toolbar-background::after{
-    border-radius: 12px !important;
+#zen-toolbar-background,
+#zen-toolbar-background::after {
+  border-radius: 12px !important;
 }
 
 /* Hide Workspace */
-@media(-moz-pref("arcane-workspace-indicator")){
-    .zen-current-workspace-indicator{
-        display:none !important;
-    }   
+@media (-moz-pref("arcane-workspace-indicator")) {
+  .zen-current-workspace-indicator {
+    display: none !important;
+  }
 }
 
 /* Rounded Tabs/Essentials/URLbar */
-.tab-background, #tabs-newtab-button, #urlbar-container, .urlbar-background, .tab-group-container{
-    border-radius: 12px !important;
+.tab-background,
+#tabs-newtab-button,
+#urlbar-container,
+.urlbar-background,
+.tab-group-container {
+  border-radius: 12px !important;
 }

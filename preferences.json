@@ -6,8 +6,8 @@
     "defaultValue": true
   },
   {
-    "type":"separator",
-    "label":"**Fonts**"
+    "type": "separator",
+    "label": "**Fonts**"
   },
   {
     "type": "dropdown",
@@ -25,8 +25,8 @@
     ]
   },
   {
-    "type":"separator",
-    "label":"**NotSure**"
+    "type": "separator",
+    "label": "**NotSure**"
   },
   {
     "type": "checkbox",
@@ -43,7 +43,7 @@
     "options": [
       {
         "label": "Disable",
-        "value":-1
+        "value": -1
       },
       {
         "label": "Only Compact Mode",
