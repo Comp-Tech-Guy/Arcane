@@ -25,9 +25,46 @@
     ]
   },
   {
+    "type":"separator",
+    "label":"**NotSure**"
+  },
+  {
     "type": "checkbox",
     "property": "arcane-workspace-indicator",
     "label": "Remove Workspace Indicator",
     "defaultValue": false
+  },
+  {
+    "type": "dropdown",
+    "value": "number",
+    "label": "Choose mode for No Gaps mode",
+    "property": "arcane-nogap.mode-select",
+    "default": 1,
+    "options": [
+      {
+        "label": "Disable",
+        "value":-1
+      },
+      {
+        "label": "Only Compact Mode",
+        "value": 0
+      },
+      {
+        "label": "Both non compact and compact mode",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "default": false,
+    "label": "Remove highlight on tab when in split mode",
+    "property": "arcane.remove-split-highlight"
+  },
+  {
+    "type": "checkbox",
+    "default": false,
+    "label": "Remove shadow emited by the website",
+    "property": "arcane.remove-box-shadow"
   }
 ]

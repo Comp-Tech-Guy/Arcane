@@ -9,3 +9,8 @@
         display:none !important;
     }   
 }
+
+/* Rounded Tabs/Essentials/URLbar */
+.tab-background, #tabs-newtab-button, #urlbar-container, .urlbar-background, .tab-group-container{
+    border-radius: 12px !important;
+}
