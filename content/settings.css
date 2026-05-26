@@ -1,3 +1,7 @@
-.logo{
-    background: light-dark(url("chrome://sine/content/Arcane/svg/arcDark.svg"), url("chrome://sine/content/Arcane/svg/arcWhite.svg")) no-repeat center !important;
+.logo {
+  background: light-dark(
+      url("chrome://sine/content/Arcane/svg/arcDark.svg"),
+      url("chrome://sine/content/Arcane/svg/arcWhite.svg")
+    )
+    no-repeat center !important;
 }
