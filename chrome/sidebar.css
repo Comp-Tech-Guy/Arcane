@@ -37,6 +37,7 @@
     left: var(--zen-element-separation) !important;
     height: calc(100% - (var(--zen-element-separation) * 2)) !important;
   }
+
   :root[zen-single-toolbar="true"][zen-compact-mode="true"] #titlebar {
     top: var(--zen-element-separation) !important;
     left: var(--zen-element-separation) !important;
@@ -46,13 +47,19 @@
 
 /* ----MultiToolbar---- */
 @media (-moz-pref("zen.view.compact.hide-tabbar")) or (-moz-pref("zen.view.compact.hide-toolbar")) {
-  :root[zen-sidebar-expanded="true"]:not([zen-single-toolbar="true"])[zen-compact-mode="true"] #titlebar {
+  :root[zen-sidebar-expanded="true"]:not(
+      [zen-single-toolbar="true"]
+    )[zen-compact-mode="true"]
+    #titlebar {
     top: var(--zen-element-separation) !important;
     left: var(--zen-element-separation) !important;
     height: calc(100% - (var(--zen-element-separation) * 3)) !important;
   }
 
-  :root[zen-sidebar-expanded="true"]:not([zen-single-toolbar="true"])[zen-right-side="true"][zen-compact-mode="true"] #titlebar {
+  :root[zen-sidebar-expanded="true"]:not(
+      [zen-single-toolbar="true"]
+    )[zen-right-side="true"][zen-compact-mode="true"]
+    #titlebar {
     left: auto !important;
     right: var(--zen-element-separation) !important;
   }
@@ -60,13 +67,21 @@
 
 /* ----CollaspedToolbar ---- */
 @media (-moz-pref("zen.view.compact.hide-tabbar")) or (-moz-pref("zen.view.compact.hide-toolbar")) {
-  :root:not([zen-sidebar-expanded="true"],[zen-single-toolbar="true"])[zen-compact-mode="true"] #titlebar {
+  :root:not(
+      [zen-sidebar-expanded="true"],
+      [zen-single-toolbar="true"]
+    )[zen-compact-mode="true"]
+    #titlebar {
     top: var(--zen-element-separation) !important;
     left: var(--zen-element-separation) !important;
     height: calc(100% - (var(--zen-element-separation) * 3)) !important;
   }
 
-  :root:not([zen-sidebar-expanded="true"],[zen-single-toolbar="true"])[zen-right-side="true"][zen-compact-mode="true"] #titlebar {
+  :root:not(
+      [zen-sidebar-expanded="true"],
+      [zen-single-toolbar="true"]
+    )[zen-right-side="true"][zen-compact-mode="true"]
+    #titlebar {
     left: auto !important;
     right: var(--zen-element-separation) !important;
   }
