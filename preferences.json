@@ -26,13 +26,17 @@
   },
   {
     "type": "separator",
-    "label": "**NotSure**"
+    "label": "**Remove Stuff**"
   },
   {
     "type": "checkbox",
     "property": "arcane-workspace-indicator",
     "label": "Remove Workspace Indicator",
     "defaultValue": false
+  },
+  {
+    "type": "separator",
+    "label": "**NoGaps - By CompTechGuy**"
   },
   {
     "type": "dropdown",
