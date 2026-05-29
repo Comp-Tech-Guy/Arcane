@@ -1,3 +1,4 @@
 .urlbar[open] > .urlbar-background {
   border-radius: calc(var(--arcane-border-radius, 12px) + 5px) !important;
+  backdrop-filter: blur(50px) !important;
 }
