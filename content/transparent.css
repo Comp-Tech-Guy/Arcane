@@ -1,5 +1,5 @@
-browser{
-    background-color: transparent !important;
+browser {
+  background-color: transparent !important;
 }
 
 :root {
@@ -34,7 +34,7 @@ html:has([data-l10n-id]) {
   transition: all 0.3s ease-in-out !important;
 }
 
-@-moz-document url("about:config"), url("about:support") {
+@document url("about:config"), url("about:support") {
   html,
   #toolbar {
     background-color: transparent !important;
@@ -53,11 +53,12 @@ html:has([data-l10n-id]) {
 
 groupbox {
   /*   background: var(--zen-colors-tertiary) !important; */
+
   /*   background: var(--zen-colors-border-contrast) !important; */
   border: none;
 }
 
-@-moz-document url("about:home"), url("about:newtab"), url("about:privatebrowsing") {
+@document url("about:home"), url("about:newtab"), url("about:privatebrowsing") {
   body,
   .App {
     background-color: #0000 !important;
@@ -94,7 +95,7 @@ groupbox {
   }
 }
 
-@-moz-document url("addons.mozilla.org") {
+@document url("addons.mozilla.org") {
   /* transparency */
   html,
   body,

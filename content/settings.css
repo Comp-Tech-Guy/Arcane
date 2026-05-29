@@ -6,10 +6,16 @@
     no-repeat center !important;
 }
 
-#search-container{
-    background-color: transparent !important;
+#search-container {
+  background-color: transparent !important;
 }
 
-.main-content{
-    mask-image: linear-gradient( to bottom, transparent 0px, transparent 40px, black 39px, black 100% );
+.main-content {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 40px,
+    black 39px,
+    black 100%
+  );
 }
