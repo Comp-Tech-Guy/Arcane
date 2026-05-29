@@ -3,7 +3,7 @@
   &,
   &::before,
   &::after {
-    border-radius: 12px !important;
+    border-radius: var(--arcane-border-radius, 12px) !important;
   }
 }
 
@@ -21,11 +21,11 @@
 .urlbar-background,
 .tab-group-container,
 .zen-current-workspace-indicator::before {
-  border-radius: 12px !important;
+  border-radius: var(--arcane-border-radius, 12px) !important;
 }
 
 .zen-workspaces-actions > .toolbarbutton-icon {
-  border-radius: 7px !important;
+  border-radius: calc(var(--arcane-border-radius, 12px) - 5px) !important;
 }
 
 /* Gap Between the Sidebar */
