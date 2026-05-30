@@ -1,1 +1,16 @@
 /* Sidebar */
+.tabbrowser-tab{
+    transition: transform 0.15s ease-in-out !important;
+}
+
+.tabbrowser-tab:hover{
+    transform: scale(1.05) !important;
+}
+
+.urlbar:not([open]){
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.urlbar:not([open]):hover{
+    transform: scale(1.05) translateY(-2px) !important;
+}

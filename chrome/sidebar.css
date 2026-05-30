@@ -1,7 +1,6 @@
 /* Compact Mode Sidebar Border Radius */
 .zen-toolbar-background {
   backdrop-filter: blur(50px) !important;
-
   &,
   &::before,
   &::after {
@@ -18,12 +17,17 @@
 
 /* Rounded Tabs/Essentials/URLbar/WorkSpaceIndicator */
 .tab-background,
+.tab-background::before,
+.tab-background::after,
 #tabs-newtab-button,
 #urlbar-container,
 .urlbar-background,
-.tab-group-container,
-.zen-current-workspace-indicator::before {
+.tab-group-container {
   border-radius: var(--arcane-border-radius, 12px) !important;
+}
+
+.zen-current-workspace-indicator::before{
+    display:none;
 }
 
 .zen-workspaces-actions > .toolbarbutton-icon {
