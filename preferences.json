@@ -77,5 +77,16 @@
     "label": "Custom *border radius* on everything on arcane (0 to 20px)",
     "defaultValue": "12px",
     "placeholder": "12px"
+  },
+  {
+    "type":"separator",
+    "label": "*Window Transparency*"
+  },
+  {
+    "type": "checkbox",
+    "property": "browser.tabs.allow_transparent_browser",
+    "label": "Enable Transparent browser tabs (Restart Required)",
+    "defaultValue": false,
+    "restart": true
   }
 ]
