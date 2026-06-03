@@ -1,6 +1,7 @@
 /* Compact Mode Sidebar Border Radius */
 .zen-toolbar-background {
   backdrop-filter: blur(50px) !important;
+
   &,
   &::before,
   &::after {
@@ -26,8 +27,8 @@
   border-radius: var(--arcane-border-radius, 12px) !important;
 }
 
-.zen-current-workspace-indicator::before{
-    display:none;
+.zen-current-workspace-indicator::before {
+  display: none;
 }
 
 .zen-workspaces-actions > .toolbarbutton-icon {
