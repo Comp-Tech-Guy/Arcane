@@ -23,7 +23,9 @@
 #tabs-newtab-button,
 #urlbar-container,
 .urlbar-background,
-.tab-group-container {
+.tab-group-container,
+.tab-group-label-container::before,
+zen-folder {
   border-radius: var(--arcane-border-radius, 12px) !important;
 }
 
