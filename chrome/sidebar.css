@@ -96,37 +96,41 @@ zen-folder {
   }
 }
 
-
 /* Tab-folders */
-zen-folder{
-  background: light-dark(rgb(0,0,0,0.05), rgb(255,255,255,0.05));
+zen-folder {
+  background: light-dark(rgb(0 0 0 / 5%), rgb(255 255 255 / 5%));
   border-radius: 14px !important;
   transition: padding 0.2s ease-in-out;
-  
-  &:not([collapsed]){
+
+  &:not([collapsed]) {
     padding: 5px;
-    & .tab-group-label-container::before{
-      background:light-dark(rgb(0,0,0,0.05), rgb(255,255,255,0.05));
+
+    & .tab-group-label-container::before {
+      background: light-dark(rgb(0 0 0 / 5%), rgb(255 255 255 / 5%));
     }
   }
-  
-  & > .tab-group-container{
+
+  & > .tab-group-container {
     position: relative;
-    &::before{
-      content:"";
-      position:absolute;
+
+    &::before {
+      content: "";
+      position: absolute;
       height: 95%;
-      left:7px;
-      top:5px;
+      left: 7px;
+      top: 5px;
       width: 4px;
-      background: light-dark(rgb(0,0,0,0.05), rgb(255,255,255,0.05));
+      background: light-dark(rgb(0 0 0 / 5%), rgb(255 255 255 / 5%));
       border-radius: 12px;
     }
   }
-  
-  & > .tab-group-label-container{
-    height: calc(var(--tab-block-margin) * 2 + var(--tab-min-height) + 2px) !important;
-    &::before{
+
+  & > .tab-group-label-container {
+    height: calc(
+      var(--tab-block-margin) * 2 + var(--tab-min-height) + 2px
+    ) !important;
+
+    &::before {
       transition: background 0.1s ease-in-out;
     }
   }
