@@ -117,8 +117,9 @@ zen-folder {
     &::before {
       content: "";
       position: absolute;
-      /*height: 95%;*/
-      bottom:5px;
+
+      /* height: 95%; */
+      bottom: 5px;
       left: 7px;
       top: 5px;
       width: 4px;
